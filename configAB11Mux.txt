@@ -1,0 +1,6 @@
+///////////////////////Configurations/////////////////////////////
+Environment = multiplexer     %
+PosBits = 3                   %
+ConditionLength = 11          %
+PopSize = 1000                % (0.5, 1, 2, 5, 10/20, 50)*1000 for 6-, 11-, 20-, 37-, 70-, 135-bits MUX respectively
+Problems = 500000             % (5, 5, 5, 5/10, 20, 50)*100*1000 for 6-, 11-, 20-, 37-, 70-, 135-bits MUX respectively
