@@ -224,7 +224,7 @@ void loadConfig::loadConfigFromFile(string strFileName)
                 m_stGEnvConfig.m_eEnv = hiddenOddParity;
               else if(strEnv == "Carry" || strEnv == "carry")
                 m_stGEnvConfig.m_eEnv = carry;
-              else if(strEnv == "EvenParity" || strEnv == "evenparity")
+              else if(strEnv == "EvenParity" || strEnv == "evenparity" || strEnv == "evenParity")
                 m_stGEnvConfig.m_eEnv = evenParity;
               else if(strEnv == "MajorityOn" || strEnv == "majorityon")
                 m_stGEnvConfig.m_eEnv = majorityOn;

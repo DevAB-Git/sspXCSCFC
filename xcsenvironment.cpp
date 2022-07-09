@@ -55,7 +55,7 @@ double env::prfmAction(int nAction, OPTYPE pOpState[], bool &bReset)
     switch(m_stGEnvConfig.m_eEnv)
     {
 		case evenParity:
-			return prfmAction(nAction,pOpState,bReset);
+			return prfmEvnParityAction(nAction,pOpState,bReset);
 		case carry:
 			return prfmCarryAction(nAction,pOpState,bReset);
         case multiplexer:
