@@ -15,11 +15,13 @@ using namespace std;
 //main function
 int main(int argc, char** argv)
 {
-    xcsSys  stXcsSys;
+    //xcsSys  stXcsSys;
+    //Update parameters
     m_stGLoadConfig.parseargs(argc, argv);
     if(!m_stGLoadConfig.m_strConfigFile.empty())
         m_stGLoadConfig.loadConfigFromFile(m_stGLoadConfig.m_strConfigFile);
 
+    xcsSys  stXcsSys;
     //Runs experiment for multiple time
     for(uint32_t nRuns=0; nRuns < m_stGLogExec.m_nTotalRuns; nRuns++)
     {
